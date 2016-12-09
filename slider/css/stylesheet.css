@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'orbitron-black-webfont';
+    src: url('../fonts/orbitron-black-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/orbitron-black-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/orbitron-black-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/orbitron-black-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/orbitron-black-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/orbitron-black-webfont.svg#orbitron-black') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'Prociono-Regular-webfont';
+    src: url('../fonts/Prociono-Regular-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Prociono-Regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Prociono-Regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Prociono-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Prociono-Regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Prociono-Regular-webfont.svg#Prociono-Regular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'LindenHill-webfont';
+    src: url('../fonts/LindenHill-webfont.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/LindenHill-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/LindenHill-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/LindenHill-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/LindenHill-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/LindenHill-webfont.svg#LindenHill') format('svg'); /* Legacy iOS */
+}
+
+.bg{
+  background-color: rgb(57, 51, 55); 
+}
+
+#main_icon{
+  position: absolute;
+  margin-left: 2%;
+  top: 3%;
+  color: rgb(204, 196, 163);
+  float: left;
+}
+
+#heading{
+  font-size: 350%;
+  color: rgb(247, 217, 105);
+  position: absolute;
+  left: 8%;
+  top: -5%;
+  font-family: "Prociono-Regular-webfont",Times,serif;
+}
+ul.list{
+  margin-left: 42%;
+  margin-top: 4%;
+}
+
+ul.list li{
+	display: inline-block;
+	width: 23%;
+	height: 6%;
+	padding-top: 1%; 
+}
+
+ul.list li a{
+	text-decoration: none;
+	text-align: center;
+	list-style-type: none;
+  text-transform: uppercase;
+  font-family: "orbitron-black-webfont",Times,serif;
+  color: white;
+  font-size: 120%;
+  padding: 5%;
+  
+}
+
+ul.list li a:hover{
+  color: black;
+  background-color: rgb(120, 206, 152);
+  
+}
+
+#container{
+  position: relative;
+  background-color: rgb(57, 51, 55);
+  width: 97%;
+  left: 1%;
+  border: 1px solid white;
+}
+
+#mainpic{
+  left: 0;
+  position: relative;
+  border: 2px solid rgb(204, 196, 163);
+  width: 100%;
+}
+
+.wrapper{
+  border: 1px solid black;
+  background-color: black;
+  position: absolute;
+  top: 80%;
+  left: 0;
+  opacity: 0.7;
+  height: 16.5%;
+  width: 100%;
+}
+
+.img_wrapper {
+  position: absolute;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+
+.img_list li{
+  display: inline-block;
+  margin-left: 1.5%;
+  margin-bottom: 2%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#box_border{
+  border-radius: 5%;
+  height: 80px;
+  width: 140px;
+  position: absolute;
+  margin-left: 4.5%;
+  margin-top: 1.1%;
+  border: 3px solid yellow;
+}
+
+#left_holder{
+  position: absolute;
+  top: 30%;
+  color: white;
+}
+
+#right_holder{
+  position: absolute;
+  right: 0;
+  top: 30%;
+  color: white;
+}
+
+#right_holder:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+  color: black;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+#left_holder:hover{
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+  color: black;
+  border-radius: 5%;
+}
+
+.buttons{
+  margin-top: 4%;
+  margin-left: 25%;
+  margin-bottom: 4%;
+}
+
+
+
+#click{
+  margin-left: 6%;
+  width: 20%;
+  height: 7%;
+}
+
+#click:hover{
+  cursor: pointer;
+  background-color: rgb(250, 150, 144);
+
+}
+
+.text{
+  font-size: 110%;
+  margin-top: 7%;
+  float: left;
+  margin-left: 10%;
+  font-family: "LindenHill-webfont",Times,serif;
+}
+
+#icon{
+  margin-left: 6%;
+  margin-top: 5%;
+}
+
+.name{
+  color: yellow;
+}
+.end{
+  font-size: 120%;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
