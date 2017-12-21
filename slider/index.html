@@ -1,7 +1,7 @@
 <DOCTYPE! html>
 <html>
 <head>
-	<title>Gallery</title>
+    <title>Gallery</title>
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <script type="text/javascript" src="script/javascript.js"></script>
     <script src="https://use.fontawesome.com/e618db8b78.js"></script>
@@ -12,46 +12,48 @@
 <body class="bg">
   <header>
     <nav>
-   	   <div>
-   	    <i class="fa fa-globe fa-4x" aria-hidden="true" id="main_icon"></i>
-   	    <p id="heading">Gallery</p>
-   	   	   <ul class="list">
-   	   	   	<li><a href="#">Overview</a></li>
-   	   	    <li><a href="#">Touring</a></li>
-   	   	   	<li><a href="#">Pricing</a></li>
-   	   	   	<li><a href="#">Contact</a></li>
-   	   	   </ul>
-   	   </div>
-    </nav>
-  </header>  
-
-    <div id="container">
-        <img id="mainpic" src="img/pic1.jpg" class="child">
-        <div class="wrapper">
-   	      <div id="left_holder"><i class="fa fa-chevron-left fa-3x" aria-hidden="true" onclick="changeImg(-1)"></i></div>
-   	       <div id="box_border"></div>
-   	      <div class="img_wrapper">
-   	        <ul class="img_list">
-   	         <li><img id="p1" class="image" src="img/1.jpg"></li>
-   	         <li><img id="p2" class="image" src="img/2.jpg"></li>
-   	         <li><img id="p3" class="image" src="img/3.jpg"></li>
-   	         <li><img id="p4" class="image" src="img/4.jpg"></li>
-   	         <li><img id="p5" class="image" src="img/5.jpg"></li>
-   	         <li><img id="p6" class="image" src="img/6.jpg"></li>
-   	         <li><img id="p7" class="image" src="img/7.jpg"></li>
-             </ul>
-   	       </div>
-   	      <div id="right_holder"><i class="fa fa-chevron-right fa-3x" aria-hidden="true" onclick="changeImg(1)"></i></div>
-   	    </div>
+     <div>
+        <i class="fa fa-globe fa-4x" aria-hidden="true" id="main_icon"></i>
+        <p id="heading">Gallery</p>
+        <ul class="list">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Touring</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </div>
-    <div class="buttons">
+</nav>
+</header>  
+
+<div id="container">
+    <img id="mainpic" src="img/pic1.jpg" class="child">
+    <div class="wrapper">
+      <div id="left_holder"><i class="fa fa-chevron-left fa-3x" aria-hidden="true" onclick="changeImg(-1)"></i></div>
+      <div id="box_border"></div>
+      <div class="img_wrapper">
+        <ul class="img_list">
+           <li><img id="p1" class="image" src="img/1.jpg"></li>
+           <li><img id="p2" class="image" src="img/2.jpg"></li>
+           <li><img id="p3" class="image" src="img/3.jpg"></li>
+           <li><img id="p4" class="image" src="img/4.jpg"></li>
+           <li><img id="p5" class="image" src="img/5.jpg"></li>
+           <li><img id="p6" class="image" src="img/6.jpg"></li>
+           <li><img id="p7" class="image" src="img/7.jpg"></li>
+
+       </ul>
+
+   </div>
+   <div id="right_holder"><i class="fa fa-chevron-right fa-3x" aria-hidden="true" onclick="changeImg(1)"></i></div>
+</div>
+</div>
+<div class="buttons">
     <button type="button" id="click" onclick="fullscreen()"><p class="text"><b>Take A Tour</b></p><i class="fa fa-car fa-2x" aria-hidden="true" id="icon"></i></button>
     <button type="button" id="click" onclick="download()"><p class="text"><b>Download</b></p><i class="fa fa-arrow-down fa-2x" aria-hidden="true" id="icon"></i></button>
-    </div>
+</div>
 
-    <footer>
-    	<p class="end">This Gallery is based on HTML, Javascript and CSS exclusively and it contains images with a fullscreen mode as well.<br> Powered by <span class="name"><b>Mehak Mittal</b></span>.</p>
-    </footer>
+<footer>
+   <p class="end">This Gallery is based on HTML, Javascript and CSS exclusively and it contains images with a fullscreen mode as well.<br> Powered by <span class="name"><b>Mehak Mittal</b></span>.</p>
+</footer>
 
 </body>
 </html>
